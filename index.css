@@ -25,3 +25,7 @@ main{
     padding-bottom: 10px;
     max-width: 29em;
 }
+#introimage{
+    float:left;
+    width: 15rem;
+}

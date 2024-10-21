@@ -54,10 +54,13 @@ function getAnimeData(){
         rateLimiter = false;
         console.log("Ratelimiter released")
     }, 60000);
-    fetch(url, config).then(handleResponse)
+
+    fetch(url, config)
+    .then(handleResponse)
     .then(updateAnimeList)
     .catch(handleError);
     } else {
+        alert("Rate limited. Retry in a moment");
         sendRefreshErrorMessage("Rate limited. Retry in a moment");
     }
 }
@@ -250,4 +253,4 @@ usernameForm.addEventListener("submit", function(event){
     usernameForm.reset();
     getAnimeData();
 });
-//document.addEventListener('DOMContentLoaded', getAnimeData);
+document.addEventListener('DOMContentLoaded', getAnimeData);
