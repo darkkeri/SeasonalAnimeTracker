@@ -3,6 +3,8 @@
 
 This project is a website that I made as a part of my engineering studies. The website includes a home page with a small introduction and a page for tracking currently airing anime. It's hosted with Github Pages. 
 
+Link to website: https://darkkeri.github.io/SeasonalAnimeTracker
+
 ## WEB-SOVELLUSTEN PERUSTEET - Course Evaluation Criteria
 I will now go through each of the evaluation criteria with explanations of my implementation and line numbers with example code snippets.
 ## HTML (25%)
