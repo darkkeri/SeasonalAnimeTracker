@@ -1,0 +1,27 @@
+
+main{
+    min-height: 100vh;
+}
+
+.introheader{
+    padding-left: 0.5em;
+}
+
+.introduction{
+    display: inline-block;
+    margin: 2em;
+    border-radius: 9px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.introcontent{
+    background-color: #1f2c2a;
+    border-radius: 9px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-width: 29em;
+}

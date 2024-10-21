@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Seasonal Anime</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="anime.css">
+    <link rel="icon" href="images/favicon.ico" type="image">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="anime.html">Anime Tracker</a></li>
+            </ul>
+
+            <ul>
+                <div id="GitLogo">
+                    <a href="https://github.com/darkkeri"><img alt="GitHub logo link" src="images/github-logo.png"></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="calendar">
+            <div class="calendarheader">
+                <h2>Weekly Calendar</h2>
+            </div>
+            <div class="calendargrid">
+                <div class="daymarker" id="monmarker">
+                    <h3>M</h3>
+                    <h3>O</h3>
+                    <h3>N</h3>
+                </div>
+                <div class="daymarker" id="tuemarker">
+                    <h3>T</h3> 
+                    <h3>U</h3>
+                    <h3>E</h3>
+                </div>
+                <div class="daymarker" id="wedmarker">
+                    <h3>W</h3> 
+                    <h3>E</h3>
+                    <h3>D</h3>
+                </div>
+                <div class="daymarker" id="thumarker">
+                    <h3>T</h3> 
+                    <h3>H</h3>
+                    <h3>U</h3>
+                </div>
+                <div class="daymarker" id="frimarker">
+                    <h3>F</h3> 
+                    <h3>R</h3>
+                    <h3>I</h3>
+                </div>
+                <div class="daymarker" id="satmarker">
+                    <h3>S</h3>
+                    <h3>A</h3>
+                    <h3>T</h3>
+                </div>
+                <div class="daymarker" id="sunmarker">
+                    <h3>S</h3>
+                    <h3>U</h3>
+                    <h3>N</h3>
+                </div>
+                <div class="weekday" id="mon"></div>
+                <div class="weekday" id="tue"></div>
+                <div class="weekday" id="wed"></div>
+                <div class="weekday" id="thu"></div>
+                <div class="weekday" id="fri"></div>
+                <div class="weekday" id="sat"></div>
+                <div class="weekday" id="sun"></div>
+            </div>
+        </div>
+
+        <div class="ranking">
+            <div class="rankingheader">
+            <h2>Seasonal Ranking</h2>
+            </div>
+            <div class="rankinggrid">
+                <form id="usernameform">
+                    <label id="usernamelabel" for="username">Anilist Username:</label>
+                    <input id="usernameinput" type="text" name="username" placeholder="(Optional) Default: Elpmaxeanime">
+                    <input id="refreshbutton" type="submit" value="Refresh">
+                </form>
+                <p id="refresherrormsg"></p>
+                <table id="rankingtable">
+                    <tr>
+                        <th id="rankheader">Rank</th>
+                        <th id="titleheader">Title</th>
+                        <th id="scoreheader">Score</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://github.com/darkkeri">My GitHub</a></li>
+                <li><a href="https://github.com/darkkeri/Portfolio-SeasonalAnimeTracker-Website">Project GitHub</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mikael Anttila. All Rights Reserved.</p>
+            <p>Powered by <a href="https://docs.anilist.co/">AniList API</a></p>
+        </div>
+        </footer>
+
+    <script type="module" src="anime.js"></script>   
+</body>
+</html>

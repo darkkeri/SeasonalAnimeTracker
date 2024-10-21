@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Noto Sans JP', 'Noto Serif JP', Meiryo;
+}
+
+body{
+    color:white;
+    background-color:#13171d;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5c438e;
+}
+.navbar > ul{
+    display: flex;
+    list-style-type: none;
+    overflow:hidden;
+}
+.navbar a{
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    color:white;
+}
+.navbar a{
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    color:white;
+}
+.navbar a:hover{
+    background-color:#4b3673;
+    border-radius: 7px;
+}
+
+#GitLogo img{
+    height:1.5rem;
+}
+
+footer {
+    background-color: #1f2c2a;
+    padding: 1rem;
+    font-family: 1rem;
+    text-decoration: none;
+  }
+  .footer-content {
+    max-width: 1200px;
+    margin-left: 10%;
+  }
+  .footer-content ul{
+    list-style: none;
+  }
+  .footer-content a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-content a:hover{
+    text-decoration: underline;
+  } 
+  .footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    
+  }
+  .footer-bottom a{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #5c438e;
+    text-decoration: none;
+  }
+  .footer-bottom a:hover{
+    text-decoration: underline;
+  } 

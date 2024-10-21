@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/favicon.ico" type="image">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="anime.html">Anime Tracker</a></li>
+            </ul>
+
+            <ul>
+                <div id="GitLogo">
+                    <a href="https://github.com/darkkeri"><img alt="GitHub logo link" src="images/github-logo.png"></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="introduction">
+            <div class="introheader"><h2>Introduction</h2></div>
+            <div class="introcontent">
+                <h3>About Me</h3>
+                <p>Welcome to my website!</p>
+                <p>My name is Mikael and I am a second-year student pursuing a Bachelor's degree in Information Technology.</p>
+                <br>
+                <h3>Seasonal Anime Tracker</h3>
+                <p>On the Anime Tracker page of the site you can find an interface for tracking currently airing anime powered by the AniList API. The interface includes a Weekly Calendar section showcasing the weekdays of the currently airing anime that the chosen user is watching and a ranking of those shows based on the scores the user has given on their AniList.</p>
+                <br>
+                <h3>Changing user</h3>
+                <p>The Interface uses by default an example Anilist username to fetch the currently airing anime from the user's "currently watching" list. The user can be changed by inputting another username in the form and pressing refresh.</p>
+                <br>
+                <h3>Other Features</h3>
+                <p>You can press the Title or Score headers to sort the Seasonal Ranking table by Title or Score. Pressing either header twice changes the order from descending to ascending.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://github.com/darkkeri">My Github</a></li>
+                <li><a href="https://github.com/darkkeri/Portfolio-SeasonalAnimeTracker-Website">Project GitHub</a></li>
+                
+            </ul>
+            
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mikael Anttila. All Rights Reserved.</p>
+            <p>Powered by <a href="https://docs.anilist.co/">AniList API</a></p>
+        </div>
+        </footer>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
