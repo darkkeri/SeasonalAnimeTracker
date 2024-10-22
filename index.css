@@ -1,4 +1,3 @@
-
 main{
     min-height: 100vh;
 }
@@ -28,4 +27,8 @@ main{
 #introimage{
     float:left;
     width: 15rem;
+}
+
+*{
+    font-size: 1em;
 }
