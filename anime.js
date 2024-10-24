@@ -60,8 +60,8 @@ function getAnimeData(){
     .then(updateAnimeList)
     .catch(handleError);
     } else {
-        alert("Rate limited. Retry in a moment");
-        sendRefreshErrorMessage("Rate limited. Retry in a moment");
+        alert("Rate limited. Retry in 1 minute");
+        sendRefreshErrorMessage("Rate limited. Retry in 1 minute");
     }
 }
 
